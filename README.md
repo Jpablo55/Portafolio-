@@ -1,7 +1,7 @@
 
 #  Portfolio Web - Juan Pablo Jiménez Cardona
 
-Welcome to my personal portfolio! Here I showcase some of the projects I've developed while learning and improving my skills as a web developer.
+Welcome to my personal portfolio! Here I show some of the projects I've developed while learning and improving my skills as a web developer.
 
 This portfolio is built using **HTML5** and **CSS3**, with a clear structure and responsive design. It displays information about me, my featured projects, and a contact section.
 
