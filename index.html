@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+         <nav>
+            <ul>
+                <li><a href="#about-me" class="nav-links">About me</a></li>
+                <li><a href="#projects" class="nav-links">Projects</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+         </nav>
+         <section class="home">
+            <section class="presentation">
+                <h2>HELLO I'M</h2>
+                <h1>Juan Pablo Jiménez Cardona <br> <span>Riwi Developer</span></h1>
+                <figure class="icons">   
+                    <a href="https://github.com/Jpablo55" target="_blank"><img src="Assets/github-icon.png" class="icon" alt="github"></a>    
+                   <a href=""><img src="Assets/twitter-dark.png" class="icon" alt="github"></a>    
+                   <a href=""><img src="Assets/facebook-black-icon.svg.png" class="icon" alt="github"></a>         
+                </figure>
+            </section>
+            <figure id="profile-picture">
+                <img src="Assets/Profile_picture.jpeg" alt="Profile picture" class="profile-picture">
+            </figure>
+         </section>
+    </header>
+    <section id="about-me">
+        <img src="Assets/about-me-image.jpg" class="image-about-me" alt="">
+        <div class="description-about-me">
+           <h2>About me</h2>
+            <p>I love learning new things, especially about technology and programming. I have studied Python, HTML, and CSS, and I keep learning more. I like making web pages and understanding how they work. Every day, I try to practice more and improve myself.
+                I am a kind and sociable person. I like working with other people and learning in groups. I have initiative, I adapt easily to changes, and I always do my best. I am very responsible with my work and I am committed to my personal and professional growth.
+            </p>
+       </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="card-project">
+            <img src="Assets/card-project.png" alt="card project" class="image-card">
+            <div class="project-description">
+                <h3>Card Design</h3>
+                <a href="https://github.com/Jpablo55/Tarjeta-interactiva" target="_blank"><button class="repository-button">Repository</button></a>
+            </div>
+        </div>
+        <div class="card-project">
+            <img src="Assets/Memory_game.png" alt="memory game" class="image-card">
+            <div class="project-description">
+                <h3>Memory game</h3>
+                <a href="https://github.com/Jpablo55/juegom" target="_blank"><button class="repository-button">Repository</button></a>
+            </div>
+        </div>
+        <div class="card-project">
+            <img src="Assets/cafe_la_loma.png" alt="cafe la loma" class="image-card">
+            <div class="project-description">
+                <h3>Cafe la loma</h3>
+                <a href="https://github.com/Jpablo55/Cafe_loma" target="_blank"><button class="repository-button">Repository</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <section class="contact-form-container">
+            <p>
+                Thank you for visiting my portfolio.
+                If you have questions, ideas, or want to know more about my projects, feel free to reach out.
+                
+                Whether you’re interested in collaborating, sharing ideas, or you’re curious about my repository, feel free to get in touch!
+            </p>
+            <form action="" >
+                <input type="text" name="name" id="name" placeholder="Name" required></label>
+                <input type="email" name="email" id="email" placeholder="Email" required ></label>
+                <textarea name="message" id="message" placeholder="Message" required style="width: 350px;"></textarea>
+                <input type="submit" value="send" style="width: 100px; margin-left: 100px;" class="send-button">
+            </form>
+        </section>
+    </section>
+    <footer>
+        <p>© 2025 Juan Pablo Jiménez. All rights reserved.</p>
+    </footer>
+</body>
+</html>
