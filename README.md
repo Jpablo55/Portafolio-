@@ -26,3 +26,6 @@ You can clone this repository and open `index.html` directly in your browser
 GitHub: Jpablo55
 
 E-mail: juanpablojimenezc@outlook.com
+
+Clan: Lovelace
+
